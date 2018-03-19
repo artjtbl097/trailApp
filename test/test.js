@@ -24,5 +24,6 @@ nightmare
     console.log(result)
   })
   .catch(function (error) {
+    console.log("Enter")
     console.error('Search failed:', error);
   });
