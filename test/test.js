@@ -13,7 +13,7 @@ const nightmare = Nightmare({ show: true })
 
 nightmare
   .goto('http://yahoo.com')
-  .type('form[action*="/search"] [name=p]', '###########################################')
+  .type('form[action*="/search"] [name=p]', 'github nightmare')
   .click('form[action*="/search"] [type=submit]')
   .wait('#main')
   .evaluate(function () {
